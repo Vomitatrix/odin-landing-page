@@ -1,0 +1,62 @@
+* {
+    border: 1px solid red;
+}
+
+html {
+    font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.header-left > p {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+/* BACKGROUND AND FONT COLOUR OF THESE SECTIONS */
+
+.section.one,
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.section.two,
+.section.three,
+.section.four {
+    color: #1f2937;
+}
+
+.section.three {
+    background-color: #e5e7eb;
+}
