@@ -155,7 +155,25 @@ img {
 
 /* SECTION FOUR, CALL TO ACTION */
 
+.section-four-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f7;
+    color: #f9faf8;
+    border-radius: 5px;
+    margin: 5% 0%;
+}
 
+.section-four-text,
+.section-four-button {
+    margin: 0.75% 10%;
+}
+
+.bold {
+    font-weight: 900;
+}
 
 /* FOOTER */
 
