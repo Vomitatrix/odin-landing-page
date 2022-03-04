@@ -134,6 +134,29 @@ img {
     text-align: center;
 }
 
+/* SECTION THREE, QUOTE */
+
+.section.three {
+    padding: 3.5% 25%;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quoter {
+    margin-top: 0;
+    text-align: end;
+    font-size: larger;
+    font-weight: 900;
+}
+
+/* SECTION FOUR, CALL TO ACTION */
+
+
+
 /* FOOTER */
 
 footer {
